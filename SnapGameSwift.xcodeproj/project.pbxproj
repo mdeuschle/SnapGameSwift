@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A83BF7491C4055FA007829B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BF7481C4055FA007829B3 /* AppDelegate.swift */; };
+		A83BF74B1C4055FA007829B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BF74A1C4055FA007829B3 /* ViewController.swift */; };
+		A83BF74E1C4055FA007829B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83BF74C1C4055FA007829B3 /* Main.storyboard */; };
+		A83BF7511C4055FA007829B3 /* SnapGameSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A83BF74F1C4055FA007829B3 /* SnapGameSwift.xcdatamodeld */; };
+		A83BF7531C4055FA007829B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83BF7521C4055FA007829B3 /* Assets.xcassets */; };
+		A83BF7561C4055FA007829B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83BF7541C4055FA007829B3 /* LaunchScreen.storyboard */; };
+		A83BF7611C4055FB007829B3 /* SnapGameSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BF7601C4055FB007829B3 /* SnapGameSwiftTests.swift */; };
+		A83BF76C1C4055FB007829B3 /* SnapGameSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BF76B1C4055FB007829B3 /* SnapGameSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A83BF75D1C4055FB007829B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83BF73D1C4055FA007829B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83BF7441C4055FA007829B3;
+			remoteInfo = SnapGameSwift;
+		};
+		A83BF7681C4055FB007829B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83BF73D1C4055FA007829B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83BF7441C4055FA007829B3;
+			remoteInfo = SnapGameSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A83BF7451C4055FA007829B3 /* SnapGameSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapGameSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83BF7481C4055FA007829B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A83BF74A1C4055FA007829B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A83BF74D1C4055FA007829B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A83BF7501C4055FA007829B3 /* SnapGameSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnapGameSwift.xcdatamodel; sourceTree = "<group>"; };
+		A83BF7521C4055FA007829B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A83BF7551C4055FA007829B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A83BF7571C4055FB007829B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83BF75C1C4055FB007829B3 /* SnapGameSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapGameSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83BF7601C4055FB007829B3 /* SnapGameSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapGameSwiftTests.swift; sourceTree = "<group>"; };
+		A83BF7621C4055FB007829B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83BF7671C4055FB007829B3 /* SnapGameSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapGameSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83BF76B1C4055FB007829B3 /* SnapGameSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapGameSwiftUITests.swift; sourceTree = "<group>"; };
+		A83BF76D1C4055FB007829B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A83BF7421C4055FA007829B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83BF7591C4055FB007829B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83BF7641C4055FB007829B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A83BF73C1C4055FA007829B3 = {
+			isa = PBXGroup;
+			children = (
+				A83BF7471C4055FA007829B3 /* SnapGameSwift */,
+				A83BF75F1C4055FB007829B3 /* SnapGameSwiftTests */,
+				A83BF76A1C4055FB007829B3 /* SnapGameSwiftUITests */,
+				A83BF7461C4055FA007829B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A83BF7461C4055FA007829B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A83BF7451C4055FA007829B3 /* SnapGameSwift.app */,
+				A83BF75C1C4055FB007829B3 /* SnapGameSwiftTests.xctest */,
+				A83BF7671C4055FB007829B3 /* SnapGameSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A83BF7471C4055FA007829B3 /* SnapGameSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A83BF7481C4055FA007829B3 /* AppDelegate.swift */,
+				A83BF74A1C4055FA007829B3 /* ViewController.swift */,
+				A83BF74C1C4055FA007829B3 /* Main.storyboard */,
+				A83BF7521C4055FA007829B3 /* Assets.xcassets */,
+				A83BF7541C4055FA007829B3 /* LaunchScreen.storyboard */,
+				A83BF7571C4055FB007829B3 /* Info.plist */,
+				A83BF74F1C4055FA007829B3 /* SnapGameSwift.xcdatamodeld */,
+			);
+			path = SnapGameSwift;
+			sourceTree = "<group>";
+		};
+		A83BF75F1C4055FB007829B3 /* SnapGameSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A83BF7601C4055FB007829B3 /* SnapGameSwiftTests.swift */,
+				A83BF7621C4055FB007829B3 /* Info.plist */,
+			);
+			path = SnapGameSwiftTests;
+			sourceTree = "<group>";
+		};
+		A83BF76A1C4055FB007829B3 /* SnapGameSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A83BF76B1C4055FB007829B3 /* SnapGameSwiftUITests.swift */,
+				A83BF76D1C4055FB007829B3 /* Info.plist */,
+			);
+			path = SnapGameSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A83BF7441C4055FA007829B3 /* SnapGameSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83BF7701C4055FB007829B3 /* Build configuration list for PBXNativeTarget "SnapGameSwift" */;
+			buildPhases = (
+				A83BF7411C4055FA007829B3 /* Sources */,
+				A83BF7421C4055FA007829B3 /* Frameworks */,
+				A83BF7431C4055FA007829B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapGameSwift;
+			productName = SnapGameSwift;
+			productReference = A83BF7451C4055FA007829B3 /* SnapGameSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A83BF75B1C4055FB007829B3 /* SnapGameSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83BF7731C4055FB007829B3 /* Build configuration list for PBXNativeTarget "SnapGameSwiftTests" */;
+			buildPhases = (
+				A83BF7581C4055FB007829B3 /* Sources */,
+				A83BF7591C4055FB007829B3 /* Frameworks */,
+				A83BF75A1C4055FB007829B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83BF75E1C4055FB007829B3 /* PBXTargetDependency */,
+			);
+			name = SnapGameSwiftTests;
+			productName = SnapGameSwiftTests;
+			productReference = A83BF75C1C4055FB007829B3 /* SnapGameSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A83BF7661C4055FB007829B3 /* SnapGameSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83BF7761C4055FB007829B3 /* Build configuration list for PBXNativeTarget "SnapGameSwiftUITests" */;
+			buildPhases = (
+				A83BF7631C4055FB007829B3 /* Sources */,
+				A83BF7641C4055FB007829B3 /* Frameworks */,
+				A83BF7651C4055FB007829B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83BF7691C4055FB007829B3 /* PBXTargetDependency */,
+			);
+			name = SnapGameSwiftUITests;
+			productName = SnapGameSwiftUITests;
+			productReference = A83BF7671C4055FB007829B3 /* SnapGameSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A83BF73D1C4055FA007829B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Matt Deuschle";
+				TargetAttributes = {
+					A83BF7441C4055FA007829B3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EUAKYK4NXS;
+					};
+					A83BF75B1C4055FB007829B3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EUAKYK4NXS;
+						TestTargetID = A83BF7441C4055FA007829B3;
+					};
+					A83BF7661C4055FB007829B3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EUAKYK4NXS;
+						TestTargetID = A83BF7441C4055FA007829B3;
+					};
+				};
+			};
+			buildConfigurationList = A83BF7401C4055FA007829B3 /* Build configuration list for PBXProject "SnapGameSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A83BF73C1C4055FA007829B3;
+			productRefGroup = A83BF7461C4055FA007829B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A83BF7441C4055FA007829B3 /* SnapGameSwift */,
+				A83BF75B1C4055FB007829B3 /* SnapGameSwiftTests */,
+				A83BF7661C4055FB007829B3 /* SnapGameSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A83BF7431C4055FA007829B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83BF7561C4055FA007829B3 /* LaunchScreen.storyboard in Resources */,
+				A83BF7531C4055FA007829B3 /* Assets.xcassets in Resources */,
+				A83BF74E1C4055FA007829B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83BF75A1C4055FB007829B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83BF7651C4055FB007829B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A83BF7411C4055FA007829B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83BF74B1C4055FA007829B3 /* ViewController.swift in Sources */,
+				A83BF7511C4055FA007829B3 /* SnapGameSwift.xcdatamodeld in Sources */,
+				A83BF7491C4055FA007829B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83BF7581C4055FB007829B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83BF7611C4055FB007829B3 /* SnapGameSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83BF7631C4055FB007829B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83BF76C1C4055FB007829B3 /* SnapGameSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A83BF75E1C4055FB007829B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83BF7441C4055FA007829B3 /* SnapGameSwift */;
+			targetProxy = A83BF75D1C4055FB007829B3 /* PBXContainerItemProxy */;
+		};
+		A83BF7691C4055FB007829B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83BF7441C4055FA007829B3 /* SnapGameSwift */;
+			targetProxy = A83BF7681C4055FB007829B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A83BF74C1C4055FA007829B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A83BF74D1C4055FA007829B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A83BF7541C4055FA007829B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A83BF7551C4055FA007829B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A83BF76E1C4055FB007829B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A83BF76F1C4055FB007829B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A83BF7711C4055FB007829B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapGameSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.SnapGameSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A83BF7721C4055FB007829B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapGameSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.SnapGameSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A83BF7741C4055FB007829B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapGameSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.SnapGameSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapGameSwift.app/SnapGameSwift";
+			};
+			name = Debug;
+		};
+		A83BF7751C4055FB007829B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapGameSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.SnapGameSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapGameSwift.app/SnapGameSwift";
+			};
+			name = Release;
+		};
+		A83BF7771C4055FB007829B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapGameSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.SnapGameSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapGameSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A83BF7781C4055FB007829B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapGameSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.SnapGameSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapGameSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A83BF7401C4055FA007829B3 /* Build configuration list for PBXProject "SnapGameSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83BF76E1C4055FB007829B3 /* Debug */,
+				A83BF76F1C4055FB007829B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83BF7701C4055FB007829B3 /* Build configuration list for PBXNativeTarget "SnapGameSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83BF7711C4055FB007829B3 /* Debug */,
+				A83BF7721C4055FB007829B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A83BF7731C4055FB007829B3 /* Build configuration list for PBXNativeTarget "SnapGameSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83BF7741C4055FB007829B3 /* Debug */,
+				A83BF7751C4055FB007829B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A83BF7761C4055FB007829B3 /* Build configuration list for PBXNativeTarget "SnapGameSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83BF7771C4055FB007829B3 /* Debug */,
+				A83BF7781C4055FB007829B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A83BF74F1C4055FA007829B3 /* SnapGameSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A83BF7501C4055FA007829B3 /* SnapGameSwift.xcdatamodel */,
+			);
+			currentVersion = A83BF7501C4055FA007829B3 /* SnapGameSwift.xcdatamodel */;
+			path = SnapGameSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A83BF73D1C4055FA007829B3 /* Project object */;
+}
